@@ -32,6 +32,8 @@ def calculate_total(expenses_input):
     return total
 
 # Savings Goal Tracking Classes and Functions
+
+#SavingsGoal class to track a user's savings goals
 class SavingsGoal:
     def __init__(self, name, target_amount):
         self.name = name
@@ -117,7 +119,7 @@ def savings_goal_menu():
         else:
             print("Invalid choice. Please select a valid option.")
 
-# Main Menu Function
+# Main Menu Function to interact with hte user
 def main_menu():
     expenses_input = load_data()
     budget = float(input("Enter your initial budget for today: $"))
@@ -152,6 +154,6 @@ def main_menu():
             break
         else:
             print("Invalid choice. Please select a valid option.")
-
+# Run the program
 if __name__ == "__main__":
     main_menu()
