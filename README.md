@@ -1,1 +1,1 @@
-This is my submission for an expense tracking feature
+This is the  submission for an expense tracking feature.
